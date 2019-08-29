@@ -1,0 +1,177 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0b1 | 201101 
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+nav {
+    width: 100%;
+    margin-bottom: 3em;
+    background-color: #333;
+    box-sizing: border-box;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+}
+
+nav a {
+    display: inline;
+    margin-left: .5em;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1em;
+}
+#post-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.post-box {
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+#welcome-container {
+    text-align: center;
+    border-bottom: 1px solid #999;
+    margin-bottom: 2em;
+}
+
+#text-container {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#welcome-text {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#logo {
+    display: inline-block;
+    font-size: 3em;
+}
+
+.logo-sub-1 {
+    color: white;
+}
+
+.logo-sub-2 {
+    color: darksalmon;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #999;
+}
+
+nav a:visited {
+    color: white;
+}
+
+#post-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #555;
+}
+
+.post-box-link:link {
+    width: 45%;
+    margin-bottom: 1.2em;
+    color: inherit;
+}
+
+.post-box-link:visited {
+    color: inherit;
+}

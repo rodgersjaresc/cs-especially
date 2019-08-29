@@ -1,0 +1,13 @@
+.post-box {
+    width: 100%;
+    height: 100%;
+}
+
+.post-box-link:link {
+    width: 45%;
+    margin-bottom: 1.2em;
+    color: inherit;
+}
+.post-box-link:visited {
+    color: inherit;
+}
