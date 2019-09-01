@@ -147,19 +147,35 @@ nav a {
     color: darksalmon;
 }
 
-nav a:link {
+#posts:link {
     color: white;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: #999;
-}
-
-nav a:visited {
+#posts:visited {
     color: white;
 }
 
+#posts:hover {
+    color: #999;
+}
+
+#about:link {
+    color: white;
+    text-decoration: none;
+}
+
+#about:visited {
+    color: white;
+}
+
+#about:hover {
+    color: #999;
+}
+
+#about:active {
+    color: red;
+}
 #post-title {
     font-size: 2.5em;
     font-weight: bold;
